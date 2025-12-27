@@ -1,72 +1,69 @@
-# ImperiumX
-🔧 GearGuard – Smart Maintenance Management System
-📌 Project Overview
+# ImperiumX 🔧 GearGuard – Smart Maintenance Management System
 
-GearGuard is a workflow-driven maintenance management platform that helps organizations track equipment, manage maintenance teams, and streamline repair workflows from a single dashboard.
+GearGuard is a workflow-driven **maintenance management platform** designed to help organizations efficiently track equipment, manage maintenance teams, and streamline repair workflows — all from a single, intuitive dashboard.
 
-It connects three core components:
+---
 
-Equipment – What needs maintenance
+## 💡 One-liner
+**A single platform to track assets, assign responsibilities, and ensure maintenance is completed on time with full visibility.**
 
-Maintenance Teams – Who is responsible
+---
 
-Maintenance Requests – What work must be done
+## 🛠️ Tech Stack
 
-💡 In one line:
+**Frontend:**  
+- React.js, Vite  
+- Tailwind CSS  
+- Framer Motion  
 
-A single platform to track assets, assign responsibility, and ensure maintenance is completed on time with full visibility.
+**Backend:**  
+- Node.js, Express.js (REST API)  
 
+**Database:**  
+- PostgreSQL, Prisma ORM  
 
-🛠️ Tech Stack
-Architecture Breakdown
-Layer	Technology
-Frontend:React.js,
-Vite,
-Tailwind CSS,
-Framer Motion,
+**Authentication:**  
+- JWT  
 
-Backend	:
-Node.js,
-Express.js (REST API)
+**HTTP Client:**  
+- Axios  
 
-Database	:
-PostgreSQL,
-ORM	Prisma
+**Deployment:**  
+- Frontend: Vercel  
+- Backend: Render / Vercel  
 
-Authentication	:JWT
+---
 
-HTTP Client:	Axios
+## 🔄 Core Workflows
 
-Deployment:Vercel (Frontend), Render / Vercel (Backend)
+### 1️⃣ Breakdown Maintenance (Corrective)
 
+1. **Request Creation:** User raises a maintenance request.  
+2. **Automatic Assignment:** Equipment selection auto-assigns:  
+   - Category  
+   - Maintenance team  
+3. **Request Status Flow:**  
+   - Request enters **New** state  
+   - Manager assigns a technician  
+   - Status moves to **In Progress**  
+   - Technician logs repair duration  
+   - Request marked as **Repaired**  
+4. **Smart Actions:** Action buttons with request count badges for quick updates.  
 
-🔄 Core Workflows
-1️⃣ Breakdown Maintenance (Corrective)
+---
 
-User raises a maintenance request
+## ✅ Features at a Glance
+- Track all equipment and their maintenance history  
+- Assign maintenance requests to appropriate teams automatically  
+- Real-time status updates and logging  
+- Centralized dashboard for managers and technicians  
+- Smart UI with actionable request badges  
 
-Equipment selection auto-assigns:
+---
 
-Category
+## 🌐 Live Deployment
+- **Frontend:** [ImperiumX App](https://imperium-x-t49d.vercel.app/)  
+- **Backend API:** [GearGuard Server](https://gear-guard-server.onrender.com/)  
 
-Maintenance team
+---
 
-Request enters New state
-
-Manager assigns technician
-
-Status moves to In Progress
-
-Technician logs repair duration
-
-Request marked Repaired
-
-Smart action buttons with request count badges
-
-🌐 Live Deployment
-
-Frontend:
-https://imperium-x-t49d.vercel.app/
-
-Backend API:
-https://gear-guard-server.onrender.com/
