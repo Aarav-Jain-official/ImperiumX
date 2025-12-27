@@ -20,11 +20,17 @@ A single platform to track assets, assign responsibility, and ensure maintenance
 🛠️ Tech Stack
 Architecture Breakdown
 Layer	Technology
-Frontend:React.js, Vite, Tailwind CSS, Framer Motion
-Backend	Node.js, Express.js (REST API)
-Database	PostgreSQL
+Frontend:React.js,
+Vite,
+Tailwind CSS,
+Framer Motion
+Backend	:
+Node.js,
+Express.js (REST API)
+Database	:
+PostgreSQL
 ORM	Prisma
-Authentication	JWT
+Authentication	:JWT
 HTTP Client	Axios
 Deployment	Vercel (Frontend), Render / Vercel (Backend)
 🔄 Core Workflows
@@ -48,32 +54,12 @@ Technician logs repair duration
 
 Request marked Repaired
 
-2️⃣ Preventive Maintenance (Routine Checkup)
-
-Manager creates a preventive request
-
-Schedules maintenance date
-
-Task appears in Calendar View
-
-Technician completes work on scheduled day
-
-🎨 User Experience Highlights
-
-Interactive Kanban Board with smooth drag & drop
-
-Technician avatars on request cards
-
-Visual overdue task indicators
-
-Calendar-based preventive planning
-
 Smart action buttons with request count badges
 
 🌐 Live Deployment
 
 Frontend:
-https://vercel.com/satyansh-mishras-projects/imperium-x-t49d
+https://imperium-x-t49d.vercel.app/
 
 Backend API:
 https://gear-guard-server.onrender.com/
