@@ -20,7 +20,7 @@ A single platform to track assets, assign responsibility, and ensure maintenance
 🛠️ Tech Stack
 Architecture Breakdown
 Layer	Technology
-Frontend	React.js, Vite, Tailwind CSS, Framer Motion
+Frontend:React.js, Vite, Tailwind CSS, Framer Motion
 Backend	Node.js, Express.js (REST API)
 Database	PostgreSQL
 ORM	Prisma
