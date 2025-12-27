@@ -16,17 +16,7 @@ Maintenance Requests – What work must be done
 
 A single platform to track assets, assign responsibility, and ensure maintenance is completed on time with full visibility.
 
-⭐ Key Features
-Feature	Description
-Equipment Registry	Centralized asset database with location, ownership & warranty details
-Team Management	Multiple specialized maintenance teams with technicians
-Maintenance Requests	Supports both Breakdown (Corrective) and Preventive workflows
-Smart Auto-Assignment	Equipment selection auto-fills category & assigned team
-Kanban Workflow Board	Drag & drop requests across stages (New → In Progress → Repaired)
-Calendar View	Visual scheduling for preventive maintenance
-Smart Equipment Actions	View all requests linked to a specific asset
-Overdue Alerts	Visual indicators for delayed tasks
-Scrap Logic	Mark unusable equipment as scrapped
+
 🛠️ Tech Stack
 Architecture Breakdown
 Layer	Technology
