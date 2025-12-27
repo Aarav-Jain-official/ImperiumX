@@ -23,16 +23,23 @@ Layer	Technology
 Frontend:React.js,
 Vite,
 Tailwind CSS,
-Framer Motion
+Framer Motion,
+
 Backend	:
 Node.js,
 Express.js (REST API)
+
 Database	:
-PostgreSQL
+PostgreSQL,
 ORM	Prisma
+
 Authentication	:JWT
-HTTP Client	Axios
-Deployment	Vercel (Frontend), Render / Vercel (Backend)
+
+HTTP Client:	Axios
+
+Deployment:Vercel (Frontend), Render / Vercel (Backend)
+
+
 🔄 Core Workflows
 1️⃣ Breakdown Maintenance (Corrective)
 
